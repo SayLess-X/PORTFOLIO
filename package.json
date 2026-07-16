@@ -2,13 +2,15 @@
   "name": "sailesh-maharjan-portfolio",
   "description": "Sailesh Maharjan's Portfolio",
   "version": "1.0.0",
+  "homepage": "https://www.saileshmaharjan63.com.np",
   "author": "Sailesh Maharjan",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "prettier": "prettier --write 'src/**/*.js'"
+    "prettier": "prettier --write 'src/**/*.js'",
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "devDependencies": {
     "eslint": "4.19.1",
@@ -17,6 +19,7 @@
     "gatsby-plugin-google-analytics": "5.14.0",
     "gatsby-plugin-manifest": "5.14.0",
     "gatsby-plugin-sass": "6.14.0",
+    "gh-pages": "^6.3.0",
     "prettier": "1.13.4",
     "sass": "1.89.2"
   },
