@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow common crawler-heavy paths if you later add them
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+Sitemap: https://saileshmaharjan63.com.np/sitemap.xml

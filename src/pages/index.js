@@ -33,8 +33,14 @@ export default Home;
 
 export const Head = () => (
   <>
-    <title>Sailesh's Portfolio</title>
-    <meta name="description" content="Sailesh Maharjan's Portfolio" />
-    <meta name="keywords" content="Sailesh Maharjan, portfolio, web developer" />
+    <title>Sailesh Maharjan | Portfolio</title>
+    <meta
+      name="description"
+      content="Sailesh Maharjan is a backend-focused developer building reliable web applications, APIs, and scalable solutions."
+    />
+    <meta name="keywords" content="Sailesh Maharjan, backend developer, web developer, APIs, Spring Boot, PostgreSQL, portfolio" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <link rel="canonical" href="https://saileshmaharjan63.com.np/" />
   </>
 );
