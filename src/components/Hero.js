@@ -13,8 +13,7 @@ const Hero = () => {
       <div className="hero-description">
         I am an aspiring Backend Developer with hands-on experience in Spring
         Boot and PostgreSQL.<br />My passion is building solid, well-tested
-        server-side applications.<br />Check out
-        my{' '}
+        server-side applications.<br />Check out my{' '}
         <a href="#projects" onClick={handleScroll}>
           side-projects
         </a>{' '}

@@ -35,6 +35,9 @@ export const Head = () => (
   <>
     <title>Sailesh's Portfolio</title>
     <meta name="description" content="Sailesh Maharjan's Portfolio" />
-    <meta name="keywords" content="Sailesh Maharjan, portfolio, web developer" />
+    <meta
+      name="keywords"
+      content="Sailesh Maharjan, portfolio, web developer"
+    />
   </>
 );

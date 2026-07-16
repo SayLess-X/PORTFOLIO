@@ -23,7 +23,8 @@ const statements = [
   },
   {
     input: 'Sailesh.languages',
-    return: '["Java", "Spring Boot", "PostgreSQL", "Spring Data JPA", "Docker", "Git"]',
+    return:
+      '["Java", "Spring Boot", "PostgreSQL", "Spring Data JPA", "Docker", "Git"]',
   },
 ];
 
