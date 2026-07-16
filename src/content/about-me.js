@@ -1,30 +1,29 @@
 const statements = [
   {
-    input: 'Justin.location',
-    return: '"San Jose, CA"',
+    input: 'Sailesh.location',
+    return: '"Nepal"',
   },
   {
-    input: 'Justin.contact',
+    input: 'Sailesh.contact',
     return:
-      '["<a href="mailto:j.chi2241@gmail.com">j.chi2241@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a rel="noopener" href="https://github.com/jchi2241">github</a>"]',
+      '["<a href="mailto:saileshmaharjan9102@gmail.com">saileshmaharjan9102@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/sailesh-maharjan-215617380/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/SayLess-X">github</a>"]',
   },
   {
-    input: 'Justin.resume',
+    input: 'Sailesh.resume',
     return:
-      '"<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">justinchi.pdf</a>"',
+      '"<a rel="noopener" href="/sailesh_resume.pdf" target="_blank">sailesh_resume.pdf</a>"',
   },
   {
-    input: 'Justin.interests',
-    return: '["design", "basketball", "cooking", "traveling"]',
+    input: 'Sailesh.interests',
+    return: '["backend development", "problem solving", "learning new tech"]',
   },
   {
-    input: 'Justin.education',
-    return:
-      '"B.Sc. Structural Engineering - University of California, San Diego"',
+    input: 'Sailesh.education',
+    return: '"Bachelor in Information Technology (Hons) from HELP University"',
   },
   {
-    input: 'Justin.languages',
-    return: '["Typescript", "React", "Go", "Python"]',
+    input: 'Sailesh.languages',
+    return: '["Java", "Spring Boot", "PostgreSQL", "Spring Data JPA", "Docker", "Git"]',
   },
 ];
 

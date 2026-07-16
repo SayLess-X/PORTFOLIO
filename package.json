@@ -1,8 +1,8 @@
 {
-  "name": "justin-chi-portfolio",
-  "description": "Justin's Portfolio",
+  "name": "sailesh-maharjan-portfolio",
+  "description": "Sailesh Maharjan's Portfolio",
   "version": "1.0.0",
-  "author": "Justin Chi",
+  "author": "Sailesh Maharjan",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

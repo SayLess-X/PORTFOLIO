@@ -1,4 +1,3 @@
-@use './fonts/camphor';
 @use 'reset';
 @use 'colors' as *;
 @use 'breakpoints' as *;
@@ -10,10 +9,7 @@
 @use '../components/Contact';
 @use '../components/Footer';
 
-@font-face {
-  font-family: 'Monaco';
-  src: url('./fonts/monaco-webfont.woff') format('woff');
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
 
 body {
   background-color: #f6f9fc;
@@ -60,7 +56,7 @@ a {
 
 .section-title {
   color: $grey;
-  font-family: 'Camphor', Open Sans, Segoe UI, sans-serif;
+  font-family: 'Poppins', Open Sans, Segoe UI, sans-serif;
   font-weight: 500;
   font-size: 1.5em;
   text-align: center;
