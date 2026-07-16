@@ -33,14 +33,22 @@ export default Home;
 
 export const Head = () => (
   <>
-    <title>Sailesh Maharjan | Portfolio</title>
+    <title>Sailesh Maharjan | Backend Developer | Portfolio</title>
     <meta
       name="description"
-      content="Sailesh Maharjan is a backend-focused developer building reliable web applications, APIs, and scalable solutions."
+      content="Sailesh Maharjan is a backend developer from Nepal building reliable web applications, APIs, databases, and scalable systems."
     />
-    <meta name="keywords" content="Sailesh Maharjan, backend developer, web developer, APIs, Spring Boot, PostgreSQL, portfolio" />
+    <meta
+      name="keywords"
+      content="sailesh, sailesh maharjan, sailesh maharjan portfolio, sailesh maharjan nepal, sailesh maharjan backend, backend developer nepal, backend developer, web developer nepal, apis, spring boot, postgresql, portfolio"
+    />
     <meta name="robots" content="index,follow" />
     <meta name="googlebot" content="index,follow" />
-    <link rel="canonical" href="https://saileshmaharjan63.com.np/" />
+    <meta property="og:title" content="Sailesh Maharjan | Backend Developer" />
+    <meta property="og:description" content="Backend developer from Nepal building reliable web applications and APIs." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.saileshmaharjan63.com.np/" />
+    <meta property="og:site_name" content="Sailesh Maharjan" />
+    <link rel="canonical" href="https://www.saileshmaharjan63.com.np/" />
   </>
 );
