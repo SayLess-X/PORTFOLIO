@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const ContactLinks = () => {
   return (
@@ -28,7 +29,7 @@ const ContactLinks = () => {
           target="_blank"
           href="https://github.com/SayLess-X"
         >
-          <FontAwesomeIcon icon={['fab', 'github']} />
+          <FontAwesomeIcon icon={faGithub} />
         </a>
       </span>
     </div>

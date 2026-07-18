@@ -1,5 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectSkill = props => {
   return <span className="project-skill">{props.skill}</span>;
@@ -25,7 +27,7 @@ const ProjectLinks = props => {
         target="_blank"
         className="project-link"
       >
-        Live Demo <FontAwesomeIcon icon="external-link-alt" />
+        Live Demo <FontAwesomeIcon icon={faExternalLinkAlt} />
       </a>
       <a
         href={github}
@@ -33,7 +35,7 @@ const ProjectLinks = props => {
         target="_blank"
         className="project-link secondary"
       >
-        <FontAwesomeIcon icon={['fab', 'github']} /> View Source
+        <FontAwesomeIcon icon={faGithub} /> View Source
       </a>
     </div>
   );
